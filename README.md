@@ -1,5 +1,5 @@
 # mythic-admin
-A edited version of [mythic-admin](https://github.com/Mythic-Framework/mythic-admin)
+A edited version of [mythic-admin](https://github.com/Mythic-Framework/mythic-admin) with 6 different roles!
 
 # How to install
 Simple, drag & drop, _**But!**_
