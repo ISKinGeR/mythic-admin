@@ -511,7 +511,7 @@ function RegisterChatCommands()
         TriggerClientEvent("Admin:Client:Menu:Open", source)
     end, { help = "[Admin] Open Admin Menu" }, 0)
     
-    Chat:RegisterSupportCommand("la", function(source, args, rawCommand)
+    Chat:RegisterStaffCommand("la", function(source, args, rawCommand)
         local player = Fetch:Source(source)
         local identifier = player:GetData('Identifier')
     
@@ -589,7 +589,7 @@ function RegisterChatCommands()
         },
     },2)
 
-    Chat:RegisterAdminCommand("oa", function(source, args, rawCommand)
+    Chat:RegisterStaffCommand("oa", function(source, args, rawCommand)
         local player = Fetch:Source(source)
         local identifier = player:GetData('Identifier')
         if adminList[source] then
