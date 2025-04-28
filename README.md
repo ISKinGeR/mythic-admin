@@ -15,7 +15,7 @@ __**IF /la not work:**__
 - make sure you have last update which changed the la command from Support to Staff
 
 __**IF choices for giveitem/giveweapn not loaded?:**__
-- go to this file [mythic]\mythic-inventory\client\startup.lua in ur inventory resource and add at the bottom of the file
+- go to this file `[mythic]\mythic-inventory\client\startup.lua` in ur inventory resource and add at the bottom of the file
 ```-- Helper function to extract name and label pairs
 local function ExtractItemNamesAndLabels()
     local itemList = {}
